@@ -3,12 +3,43 @@
   "cloudfunctionRoot": "cloud/functions/",
   "projectname": "note-records",
   "description": "这是一个记录生活的小程序",
-  "appid": "touristappid",
+  "appid": "wx512aea1658c49c9c",
   "setting": {
     "urlCheck": true,
     "es6": false,
+    "enhance": true,
     "postcss": false,
-    "minified": false
+    "preloadBackgroundData": false,
+    "minified": false,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "showES6CompileOption": false
   },
-  "compileType": "miniprogram"
+  "compileType": "miniprogram",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "condition": {}
 }
